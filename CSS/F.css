@@ -1,0 +1,54 @@
+#image {
+    filter: brightness(30%);
+    z-index: -1;
+    position:relative
+}
+p {
+    position:absolute;
+    top:55%;
+    width:100%;
+    text-align: center;
+    color: white;
+    font-size: 52;
+    font-family: Arial;
+    line-height: 90%
+}
+
+p1 {
+    position:absolute;
+    top:75%;
+    width:100%;
+    left:43.5%;
+    color: white;
+    font-size: 26;
+    font-family: Arial;
+    line-height: 80%;
+    text-align: center
+}
+.button {
+    background-color: #7ed321;
+    width:155px;
+    height:36px;
+    padding-top: 13px;
+    border-radius: 30px;
+}
+div {
+    width:100%;
+    background-color: #cee7b4;
+    height:420px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.a {
+height:100px;
+width:100px;
+}
+p2 {
+    font-family: 'Calibri';
+    font-weight: lighter;
+    justify-content: space-around;
+}
